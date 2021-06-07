@@ -30,6 +30,12 @@ Mientras opcion != 5 Hacer
 		Escribir "Ingresa tu edad"
 		leer edad
 		
+		Si edad > 17 Entonces
+			MayorM = MayorM + 1
+			Escribir "¿ingresaras otro dato?, marca 5 si no y 0 si sí"
+			leer op
+			op = opcion
+		
 		
 		
 	Fin Si
