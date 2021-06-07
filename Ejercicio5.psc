@@ -26,6 +26,10 @@ Mientras opcion != 5 Hacer
 		Fin Si
 		
 	SiNo
+		M = M +1
+		Escribir "Ingresa tu edad"
+		leer edad
+		
 		
 		
 	Fin Si
