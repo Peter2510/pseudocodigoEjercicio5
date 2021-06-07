@@ -1,6 +1,6 @@
 Algoritmo Ejercicio5
-	
 	opcion = 6
+	
 Mientras opcion != 5 Hacer
 		
 		Escribir "Ingresa 1 si eres mujer o 2 si eres Hombre"
@@ -35,7 +35,12 @@ Mientras opcion != 5 Hacer
 			Escribir "¿ingresaras otro dato?, marca 5 si no y 0 si sí"
 			leer op
 			op = opcion
-		
+		SiNo
+			MenorM = MenorM + 1
+			Escribir "¿ingresaras otro dato?, marca 5 si no y 0 si sí"
+			leer op
+			op = opcion
+		Fin Si
 		
 		
 	Fin Si
@@ -43,4 +48,5 @@ Mientras opcion != 5 Hacer
 	Escribir "La cantidad de mujeres mayores de edad es",  MayorF , " y la cantidad de hombres menores de edad es ", MenorM
 
 Fin Mientras
+
 FinAlgoritmo
