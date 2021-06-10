@@ -19,7 +19,7 @@ public static void main(String [] args){
 
 	while (opcionAvanzar != 5) {
 
-		System.out.println("Ingresa 1 si eres mujer o 2 si eres hombre");
+		System.out.println("\nIngresa 1 si eres mujer o 2 si eres hombre");
 		int sexo = scanner.nextInt();
 
 
